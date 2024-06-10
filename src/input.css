@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+.bg-primary{
+    background-color: #F91845;
+}
+.poppins{
+    font-family: "Poppins", sans-serif;
+}
+.header-banner {
+    background-image: url("../public/images/bannerbackground.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+.header-banner{
+    height: 600px;
+}
+@tailwind utilities;

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restorant</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="bg-zinc-50 w-full h-screen">
+      <header
+        class="w-full bg-transparent fixed z-50 top-0 left-0 translate duration-500"
+      >
+        <nav class="flex items-center max-w-screen-xl mx-auto px-6 py-3">
+          <div class="flex flex-grow">
+            <img
+              class="w-36 cursor-pointer"
+              src="images/logo2.7419725d.png"
+              alt="logo"
+            />
+          </div>
+          <div class="flex items-center justify-end space-x-6">
+            <button class="poppins">Sign In</button>
+            <button
+              class="bg-primary rounded-full px-6 py-3 text-white poppins ring-red-300 focus:outline-none focus:ring-4 transform transition duration-700 hover:scale-105"
+            >
+              Sign Up
+            </button>
+          </div>
+        </nav>
+      </header>
+      <section class="header-banner">
+        <div class="flex flex-col items-center justify-center h-full">
+          <h1
+            class="text-3xl text-center md:text-4xl lg:text-5xl poppins text-gray-700 font-semibold"
+          >
+            Best food waiting for your belly
+          </h1>
+          <div
+            class="flex flex-row p-1 mt-8 bg-white w-96 items-center focus:ring-4 overflow-hidden rounded-full"
+          >
+            <input
+              type="text"
+              name="search"
+              placeholder="Search here...."
+              class="rounded-full px-4 focus:outline-none w-full bg-transparent"
+            />
+            <button
+              class="text-sm bg-primary poppins rounded-full px-6 py-3 text-white ring-red-300 focus:ring-4 transition duration-300 hover:scale-105 transform"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
